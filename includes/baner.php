@@ -1,8 +1,5 @@
-<section class="section section_padding">
-<div class=" container">
-	<div class="row">
-		<div class="col-md-12">
-		</div>
-	</div>
-</div>
+
+
+<section class="banner-wrap">
+	<img class="img-responsive" src="img/banner.jpg" alt="">
 </section>
