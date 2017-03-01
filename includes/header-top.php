@@ -15,7 +15,7 @@
 						<a class="button-1" href="#">Login</a>
 					</div>
 					<div class="dd-box-header">
-						<a class="button-1" href="#">Sign Up</a>
+						<a class="button-1 button-1__padding" href="#">Sign Up</a>
 					</div>
 				</div>
 				<div class="clearfix"></div>

@@ -1,6 +1,6 @@
 <!-- How we are winner -->
 <section class="dd-winner">
-	<div class="container">
+	<div class="container header_container">
 		<div class="row">
 			<div class="col-md-12">
 				<h2>How are the winner chosen?</h2>
@@ -9,13 +9,13 @@
 					You bet – Wait for 1 minute & if no one covered it - You win the pot.<br>
 					In order to bet you should have the required amount of coins on your account.<br>
 					The game has 4 zones with fixed rates – 100, 200, 500 and 1000 coins.<br>
-					When you bet in one of the 4 zones your bet goes into a common pot and the Last Bet graph <br>displays your login and the You indicator.<br>
-					After that, the timer starts counting 60 seconds. In that period other participants can bet.<br> If they do this, the timer starts counting 60 seconds again and again with every new bet. In<br> this case the opponent keeps the game. You can join the game at any moment no matter how many<br> coins are now at stake.<br>
-					Battle ends when the players are out of coins and they have nothing to bet or in the case when<br> one of the players didn’t keep in track the time and didn’t bet once more. The gain goes to<br> the winner.<br>
+					When you bet in one of the 4 zones your bet goes into a common pot and the Last Bet graph displays your login and the You indicator.<br>
+					After that, the timer starts counting 60 seconds. In that period other participants can bet. If they do this, the timer starts counting 60 seconds again and again with every new bet. In this case the opponent keeps the game. You can join the game at any moment no matter how many coins are now at stake.<br>
+					Battle ends when the players are out of coins and they have nothing to bet or in the case when one of the players didn’t keep in track the time and didn’t bet once more. The gain goes to the winner.<br>
 					In case when the player bet and no one joined the battle, money goes back to the player’s <br>account.<br>
 					The bet can be cancelled in case of fraud from the side of the players and, therefore, all <br>coins go back to the participants of the 
 				</p>
-				<h2>How are the winner chosen?</h2>
+				<h2>Withdrawal</h2>
 				<p>
 					- Coins can be withdrawed on your BTC wallet, the withdrawal is immediate (5-minute delays are possible)<br>
 					- Replenishment and withdrawal takes place on a fixed exchange rate – 1 coin = 1 satoshi.<br>

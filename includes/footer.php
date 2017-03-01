@@ -1,5 +1,5 @@
 <section class="dd-footer">
-	<div class="container">
+	<div class="container header_container">
 		<div class="row">
 			<div class="col-md-4">
 				<div class="dd-footer_menu">

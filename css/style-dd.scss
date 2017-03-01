@@ -4,6 +4,15 @@
 .dd-box-header{
 	text-align: center;
 	padding-bottom: 20px;
+	padding-top: 14px;
+	span{
+		display: inline-block;
+		font-family: "Tahoma-Regular";
+		font-size: 15px;
+		background:url(../img/money2.png) no-repeat left center;
+		padding-left: 25px;
+		height: 21px;
+	}
 }
 .dd-logo{
 	text-align: center;
@@ -30,12 +39,14 @@
 	padding-top: 26px;
 	padding-bottom: 70px;
 	h2{
-		margin-bottom: 20px;
+		margin-bottom: 10px;
 	}
 	p{
 		margin-bottom: 20px;
 		color: #333;
-		font-family: tahomaregular;
+		font-family: "Tahoma-Regular";
+		font-size: 15px;
+		line-height: 19px;
 	}
 }
 .dd-footer{
@@ -43,13 +54,21 @@
 	padding: 21px 0px;
 	li{
 		display: inline-block;
-		margin-right: 23px;
+		margin-right: 15px;
 		a{
 			color: #333;
+			font-family: "Tahoma-Regular";
+			font-size: 15px;
 		}
 	}
 }
-
+.dd-copy{
+	span{
+		color: #333;
+		font-family: "Tahoma-Regular";
+		font-size: 15px;
+	}
+}
 
 
 @media only screen and (min-width : 320px) {
@@ -66,10 +85,12 @@
 	.dd-box-header{
 		display: inline-block;
 		padding-right: 17px;
-
 	}
 	.box-wrap{
 		float: right;
+	}
+	.dd-copy{
+		padding-left: 97px;
 	}
 }
 
