@@ -26,11 +26,11 @@
     font-weight: normal;
 }
 @font-face {
-    font-family: "MyriadProRegular";
-    src: url("../fonts/MyriadProRegular/MyriadProRegular.eot");
-    src: url("../fonts/MyriadProRegular/MyriadProRegular.eot?#iefix")format("embedded-opentype"),
-    url("../fonts/MyriadProRegular/MyriadProRegular.woff") format("woff"),
-    url("../fonts/MyriadProRegular/MyriadProRegular.ttf") format("truetype");
+    font-family: "SFUIDisplay-Medium";
+    src: url("../fonts/SFUIDisplay-Medium/SFUIDisplay-Medium.eot");
+    src: url("../fonts/SFUIDisplay-Medium/SFUIDisplay-Medium.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/SFUIDisplay-Medium/SFUIDisplay-Medium.woff") format("woff"),
+    url("../fonts/SFUIDisplay-Medium/SFUIDisplay-Medium.ttf") format("truetype");
     font-style: normal;
     font-weight: normal;
 }
