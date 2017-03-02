@@ -14,6 +14,7 @@
 	font-family: "Tahoma-Regular";
 	display: block;	
 	margin-bottom: 5px;	
+	background:none !important;
 }
 .dftopcap em{
 	font-family: "Tahoma-Bold";
@@ -327,6 +328,32 @@
 	color: #333333;
 	display: block;
 	padding: 14px 0 20px 0;
+}
+
+
+
+.dfcabbutton{	
+	border: 1px solid #999;
+	background-image: linear-gradient(to top, #e8ffd9 0%, #fefffe 100%);	
+	padding: 0px 0px 0px 4px !important;
+	span{		
+		background-image: linear-gradient(to top, #ff8d00 0%, #fc0 100%);
+		display: inline-block;
+		padding: 8px 10px;
+		height: auto !important;
+		font-size: 21px;
+		color: #ffffff;
+		margin-left: 11px;
+	}
+	img{
+		display: inline-block;
+		vertical-align: text-bottom;
+		margin-right: 5px;
+	}
+}
+.dfmymr{
+	padding-right: 11px !important;
+	vertical-align: top;
 }
 @media only screen and (min-width : 320px) {
 }
