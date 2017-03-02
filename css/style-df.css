@@ -1,3 +1,4 @@
+/*===========block=========*/
 .df-coinsblock {
   text-align: center; }
 
@@ -68,7 +69,10 @@
   background-image: linear-gradient(to top, #fcc 0%, transparent 100%);
   border: 1px solid #a80a00; }
 
-.dfbox span, a {
+.dfbox span {
+  display: block; }
+
+.dfbox a {
   display: block; }
 
 .txt1 {
@@ -142,5 +146,177 @@
   background-image: linear-gradient(to top, #be0200 0%, #ff3b30 100%);
   border: 1px solid #a80a00;
   box-shadow: inset 0 0 3px rgba(255, 114, 114, 0.57); }
+
+/*=============cabinet*/
+.dflogin {
+  font-size: 20.9px;
+  color: #333333;
+  font-family: "Tahoma-Bold";
+  padding: 30px 0;
+  text-align: center;
+  overflow: hidden; }
+  .dflogin span {
+    font-family: "Tahoma-Regular";
+    font-size: 17px;
+    color: #999999; }
+
+.dflogout {
+  font-size: 17px;
+  color: #999999;
+  font-family: "Tahoma-Regular";
+  border: 1px solid #bdbdbd;
+  border-radius: 5px;
+  padding: 5px 10px;
+  display: inline-block;
+  margin-top: 10px; }
+
+.dfbalance {
+  padding-bottom: 30px;
+  text-align: center; }
+
+.dfboxcab {
+  max-width: 160px;
+  width: 100%;
+  display: inline-block;
+  font-family: "Tahoma-Regular";
+  margin-bottom: 37px; }
+
+.dfba {
+  font-size: 19px;
+  color: #999999;
+  display: block;
+  margin-bottom: 20px; }
+
+.dfba2 {
+  font-family: "Tahoma-Bold";
+  font-size: 17px;
+  color: #333333;
+  background-image: url("../img/money2.png");
+  background-repeat: no-repeat;
+  background-position: left center;
+  padding-left: 27px;
+  display: inline-block;
+  min-height: 21px; }
+
+.dfright {
+  background-image: url("../img/money1.png"); }
+
+.dflinks1, .dflinks2 {
+  font-size: 16px;
+  color: #fafafa;
+  display: inline-block;
+  padding: 17px 14px;
+  background-color: #a80a00;
+  background-image: linear-gradient(to top, #18b536 0%, #4cd964 100%);
+  border: 1px solid #0c7e22;
+  border-radius: 5px;
+  box-shadow: inset 0 0 3px rgba(77, 240, 106, 0.32);
+  display: block;
+  width: 143px;
+  margin: 0 auto;
+  font-family: "Tahoma-Regular"; }
+
+.dflinks2 {
+  background-image: linear-gradient(to top, #3371c9 0%, #48a0ec 100%);
+  border: 1px solid #3372ca;
+  margin-top: 17px; }
+
+.dfborder100 {
+  border-bottom: 1px solid  #bdbdbd; }
+
+.dftextblock {
+  padding-top: 15px;
+  font-family: "Tahoma-Regular";
+  padding-bottom: 25px;
+  text-align: center; }
+  .dftextblock h4 {
+    padding-bottom: 10px;
+    font-size: 19px;
+    color: #333333; }
+  .dftextblock p {
+    max-width: 450px;
+    width: 100%;
+    margin: 0 auto;
+    font-size: 14.57px;
+    color: #333333;
+    padding-bottom: 15px;
+    line-height: 23.6px; }
+
+.dfyourlink {
+  font-family: "SFUIDisplay-Medium";
+  font-size: 17.7px;
+  color: #4a4a4a;
+  display: block;
+  max-width: 500px;
+  padding-bottom: 7px; }
+
+.dfinp {
+  max-width: 325px;
+  width: 100%;
+  display: inline-block;
+  padding: 14px 10px;
+  color: #333333;
+  border-radius: 5px;
+  border: 1px solid #cccccc;
+  font-size: 20.75px;
+  margin-bottom: 15px; }
+
+.dfbuttoncopy {
+  font-size: 22px;
+  color: #ffffff;
+  background-color: #009cff;
+  background-image: linear-gradient(to top, #3371c9 0%, #48a0ec 100%);
+  border: 1px solid #3372ca;
+  border-radius: 4px;
+  box-shadow: inset 0 0 3px rgba(71, 159, 235, 0.32);
+  padding: 20px 45px;
+  display: inline-block; }
+
+.dffriend {
+  display: block;
+  font-size: 19px;
+  color: #333333;
+  padding: 20px 0 12px 0; }
+
+.dfmycoins {
+  display: block;
+  font-size: 33px;
+  color: #333333; }
+
+.dfgetcoin {
+  padding-top: 20px;
+  font-family: "Tahoma-Regular";
+  text-align: center;
+  padding-bottom: 30px; }
+  .dfgetcoin a {
+    background-color: #009cff;
+    background-image: linear-gradient(to top, #ff8d00 0%, #fc0 100%);
+    border: 1px solid #e37e00;
+    border-radius: 4px;
+    box-shadow: inset 0 0 3px rgba(71, 159, 235, 0.32);
+    display: inline-block;
+    padding: 20px 52px;
+    font-size: 22px;
+    color: #ffffff; }
+
+.dfbonus {
+  font-size: 19px;
+  color: #333333;
+  display: block; }
+
+.df3coins {
+  font-size: 33px;
+  color: #333333;
+  display: block;
+  padding: 14px 0 20px 0; }
+
+@media only screen and (min-width: 992px) {
+  .dflogout {
+    margin-left: 140px;
+    margin-top: 0; }
+
+  .dfinp {
+    margin-right: 17px;
+    margin-bottom: 0px; } }
 
 /*# sourceMappingURL=style-df.css.map */
