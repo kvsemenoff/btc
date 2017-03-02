@@ -2,152 +2,332 @@
 
 }
 
-	.df-coinsblock{
-		text-align: center;
-	}
-	.dftopcap{
-		color: #999999;
-		font-size: 14.5px;
-		line-height: 26.3px;
-		font-family: "Tahoma-Regular";
-		display: block;	
-		margin-bottom: 5px;	
-	}
-	.dftopcap em{
-		font-family: "Tahoma-Bold";
-	}
-	.dftopblock{
-		max-width: 199px;
-		width: 100%;
-		display: inline-block;
-		text-align: center;
-		margin-right: 14px;
-		margin-bottom: 15px;
-	}
-	.dfchar1, .dfchar2, .dfchar3, .dfchar4{
-		display: inline-block;
-		padding: 3px 3px;
-		margin-bottom: 3px;		
-		background-color: #6c6;
-		background-image: linear-gradient(to top, #ababab 0%, #eee 100%);
-		border: 1px solid #8e8e8e;
-		border-radius: 3px;
-		box-shadow: inset 0 0 3px rgba(215, 215, 215, 0.4);
-		color: white;
-		font-family: "Tahoma-Regular";
-		font-size: 13px;
-		font-weight: 400;
+/*===========block=========*/
+
+.df-coinsblock{
+	text-align: center;
+}
+.dftopcap{
+	color: #999999;
+	font-size: 14.5px;
+	line-height: 26.3px;
+	font-family: "Tahoma-Regular";
+	display: block;	
+	margin-bottom: 5px;	
+}
+.dftopcap em{
+	font-family: "Tahoma-Bold";
+}
+.dftopblock{
+	max-width: 199px;
+	width: 100%;
+	display: inline-block;
+	text-align: center;
+	margin-right: 14px;
+	margin-bottom: 15px;
+}
+.dfchar1, .dfchar2, .dfchar3, .dfchar4{
+	display: inline-block;
+	padding: 3px 3px;
+	margin-bottom: 3px;		
+	background-color: #6c6;
+	background-image: linear-gradient(to top, #ababab 0%, #eee 100%);
+	border: 1px solid #8e8e8e;
+	border-radius: 3px;
+	box-shadow: inset 0 0 3px rgba(215, 215, 215, 0.4);
+	color: white;
+	font-family: "Tahoma-Regular";
+	font-size: 13px;
+	font-weight: 400;
 		/*line-height: 47px;*/
-	}
-	.dfchar2{
-		background-image: linear-gradient(to top, #20bb3d 0%, #4edb68 100%);
-		border: 1px solid #13952c;
-		box-shadow: inset 0 0 3px rgba(75, 217, 102, 0.45);
-	}
-	.dfchar3{
-		background-image: linear-gradient(to top, #ff8d00 0%, #fc0 100%);
-		border: 1px solid #ff8f00;
-		box-shadow: inset 0 0 3px rgba(249, 247, 197, 0.45);
-	}
-	.dfchar4{
-		background-image: linear-gradient(to top, #cc261b 0%, #ec3226 100%);
-		border: 1px solid #a80a00;
-		box-shadow: inset 0 0 3px rgba(253, 82, 70, 0.75);
-	}
-	.dfbox1, .dfbox2, .dfbox3, .dfbox4{
-		border: 1px solid #c3c3c3;
-		border-radius: 4px;
-		padding: 20px 15px;
-		font-family: "Tahoma-Regular";
-	}
-	.dfbox2{
-		background-image: linear-gradient(to top, rgba(76, 164, 237, 0.1) 0%, transparent 100%);
-		border: 1px solid #3372ca;
-	}
-	.dfbox3{
-		background-image: linear-gradient(to top, #fffbe3 0%, transparent 100%);
-		border: 1px solid #f28900;
-	}
-	.dfbox4{
-		background-image: linear-gradient(to top, #fcc 0%, transparent 100%);
-		border: 1px solid #a80a00;
-	}
-	.dfbox span, a{
-		display: block;
-	}
-	.txt1{
-		color: #676767;
-		font-size: 13.5px;		
-		/*font-family: "Tahoma-Regular";*/
-		padding-bottom: 15px;
-	}
-	.txt2{
-		color: #333333;
-		font-size: 13.5px;		
-		font-family: "Tahoma-Bold";
-		padding-bottom: 16px;
-	}
-	.txt3{
-		color: #999999;
-		font-size: 16.95px;		
-		/*font-family: "Tahoma-Regular";*/
-		padding-bottom: 5px;
-	}
-	.dfprice{
-		color: #333;
-		font-family: "Tahoma-Bold";
-		font-size: 41px;
-		font-weight: 700;	
-		padding-bottom: 12px;	
-	}
-	.txt4{
-		color: red;
-		font-family: "Tahoma-Bold";
-		font-size: 17px;
-		font-weight: 700;
-		padding-bottom: 12px;		
-	}
-	.txt5{
-		color: #999;
-		/*font-family: "Tahoma-Regular";*/
-		font-size: 10px;
-		font-weight: 400;	
-		padding-bottom: 4px;	
-	}
-	.dfbutton1, .dfbutton2, .dfbutton3, .dfbutton4 {
+}
+.dfchar2{
+	background-image: linear-gradient(to top, #20bb3d 0%, #4edb68 100%);
+	border: 1px solid #13952c;
+	box-shadow: inset 0 0 3px rgba(75, 217, 102, 0.45);
+}
+.dfchar3{
+	background-image: linear-gradient(to top, #ff8d00 0%, #fc0 100%);
+	border: 1px solid #ff8f00;
+	box-shadow: inset 0 0 3px rgba(249, 247, 197, 0.45);
+}
+.dfchar4{
+	background-image: linear-gradient(to top, #cc261b 0%, #ec3226 100%);
+	border: 1px solid #a80a00;
+	box-shadow: inset 0 0 3px rgba(253, 82, 70, 0.75);
+}
+.dfbox1, .dfbox2, .dfbox3, .dfbox4{
+	border: 1px solid #c3c3c3;
+	border-radius: 4px;
+	padding: 20px 15px;
+	font-family: "Tahoma-Regular";
+}
+.dfbox2{
+	background-image: linear-gradient(to top, rgba(76, 164, 237, 0.1) 0%, transparent 100%);
+	border: 1px solid #3372ca;
+}
+.dfbox3{
+	background-image: linear-gradient(to top, #fffbe3 0%, transparent 100%);
+	border: 1px solid #f28900;
+}
+.dfbox4{
+	background-image: linear-gradient(to top, #fcc 0%, transparent 100%);
+	border: 1px solid #a80a00;
+}
+.dfbox span{
+	display: block;
+}
+.dfbox a{
+	display: block;
+}
+.txt1{
+	color: #676767;
+	font-size: 13.5px;		
+	/*font-family: "Tahoma-Regular";*/
+	padding-bottom: 15px;
+}
+.txt2{
+	color: #333333;
+	font-size: 13.5px;		
+	font-family: "Tahoma-Bold";
+	padding-bottom: 16px;
+}
+.txt3{
+	color: #999999;
+	font-size: 16.95px;		
+	/*font-family: "Tahoma-Regular";*/
+	padding-bottom: 5px;
+}
+.dfprice{
+	color: #333;
+	font-family: "Tahoma-Bold";
+	font-size: 41px;
+	font-weight: 700;	
+	padding-bottom: 12px;	
+}
+.txt4{
+	color: red;
+	font-family: "Tahoma-Bold";
+	font-size: 17px;
+	font-weight: 700;
+	padding-bottom: 12px;		
+}
+.txt5{
+	color: #999;
+	/*font-family: "Tahoma-Regular";*/
+	font-size: 10px;
+	font-weight: 400;	
+	padding-bottom: 4px;	
+}
+.dfbutton1, .dfbutton2, .dfbutton3, .dfbutton4 {
+	display: inline-block;
+	color: white;
+	/*font-family: "Tahoma-Regular";*/
+	font-size: 24px;
+	font-weight: 400;
+	line-height: 22px;
+	background-color: #009cff;
+	background-image: linear-gradient(to top, #b3b3b3 0%, #ededed 100%);
+	border: 1px solid #8e8e8e;
+	border-radius: 3px;
+	box-shadow: inset 0 0 3px rgba(233, 233, 233, 0.32);
+	padding: 15px 30px 15px 30px;
+	img{
 		display: inline-block;
-		color: white;
-		/*font-family: "Tahoma-Regular";*/
-		font-size: 24px;
-		font-weight: 400;
-		line-height: 22px;
+		vertical-align: bottom;
+		margin-right: 10px;	
+	}		
+}
+.dfbutton2{
+	background-image: linear-gradient(to top, #3371c9 0%, #48a0ec 100%);
+	border: 1px solid #3372ca;
+	box-shadow: inset 0 0 3px rgba(71, 159, 235, 0.32);	
+}
+.dfbutton3{
+	background-image: linear-gradient(to top, #ff8d00 0%, #fc0 100%);
+	border: 1px solid #f28900;
+	box-shadow: inset 0 0 3px rgba(249, 247, 197, 0.57);
+}
+.dfbutton4{
+	background-image: linear-gradient(to top, #be0200 0%, #ff3b30 100%);
+	border: 1px solid #a80a00;
+	box-shadow: inset 0 0 3px rgba(255, 114, 114, 0.57);
+}
+
+
+/*=============cabinet*/
+
+
+.dflogin{
+	font-size: 20.9px;
+	color: #333333;
+	font-family: "Tahoma-Bold";
+	padding: 30px 0;
+	text-align: center;
+	overflow: hidden;
+	span{
+		font-family: "Tahoma-Regular";
+		font-size: 17px;
+		color: #999999;
+	}
+}
+.dflogout{
+	font-size: 17px;
+	color: #999999;
+	font-family: "Tahoma-Regular";
+	border: 1px solid #bdbdbd;
+	border-radius: 5px;
+	padding: 5px 10px;
+	display: inline-block;
+	margin-top: 10px;
+}
+
+.dfbalance{
+	padding-bottom: 30px;
+	text-align: center;
+}
+.dfboxcab{
+	max-width: 160px;
+	width: 100%;
+	display: inline-block;
+	font-family: "Tahoma-Regular";
+	margin-bottom: 37px;
+}
+.dfba{
+	font-size: 19px;
+	color: #999999;
+	display: block;
+	margin-bottom: 20px;
+}
+.dfba2{
+	font-family: "Tahoma-Bold";
+	font-size: 17px;
+	color: #333333;
+	background-image: url("../img/money2.png");
+	background-repeat: no-repeat;
+	background-position: left center;
+	padding-left: 27px;
+	display: inline-block;
+	min-height: 21px;
+}
+.dfright{
+	background-image: url("../img/money1.png");
+}
+.dflinks1, .dflinks2{
+	font-size: 16px;
+	color: #fafafa;
+	display: inline-block;
+	padding: 17px 14px;
+	background-color: #a80a00;
+	background-image: linear-gradient(to top, #18b536 0%, #4cd964 100%);
+	border: 1px solid #0c7e22;
+	border-radius: 5px;
+	box-shadow: inset 0 0 3px rgba(77, 240, 106, 0.32);
+	display: block;
+	width: 143px;
+	margin: 0 auto;
+	font-family: "Tahoma-Regular";
+}
+.dflinks2{
+	background-image: linear-gradient(to top, #3371c9 0%, #48a0ec 100%);
+	border: 1px solid #3372ca;
+	margin-top: 17px;	
+}
+.dfborder100{
+	border-bottom: 1px solid  #bdbdbd;
+}
+
+.dftextblock{
+	padding-top: 15px;
+	font-family: "Tahoma-Regular";
+	padding-bottom: 25px;	
+	text-align: center;
+	h4{
+		padding-bottom: 10px;
+		font-size: 19px;
+		color: #333333;		
+	}
+	p{
+		max-width: 450px;
+		width: 100%;
+		margin: 0 auto;
+		font-size: 14.57px;
+		color: #333333;
+		padding-bottom: 15px;
+		line-height: 23.6px;
+	}
+}
+
+.dfyourlink{
+	font-family: "SFUIDisplay-Medium";
+	font-size: 17.7px;
+	color: #4a4a4a;
+	display: block;	
+	max-width: 500px;
+	padding-bottom: 7px;
+}
+.dfinp{
+	max-width: 325px;
+	width: 100%;
+	display: inline-block;
+	padding: 14px 10px;	
+	color: #333333;
+	border-radius: 5px;
+	border: 1px solid #cccccc;
+	font-size: 20.75px;
+	margin-bottom: 15px;
+}
+.dfbuttoncopy{
+	font-size: 22px;
+	color: #ffffff;
+	background-color: #009cff;
+	background-image: linear-gradient(to top, #3371c9 0%, #48a0ec 100%);
+	border: 1px solid #3372ca;
+	border-radius: 4px;
+	box-shadow: inset 0 0 3px rgba(71, 159, 235, 0.32);
+	padding: 20px 45px;
+	display: inline-block;
+}
+.dffriend{
+	display: block;
+	font-size: 19px;
+	color: #333333;
+	padding:20px 0 12px 0;
+}
+.dfmycoins{
+	display: block;
+	font-size: 33px;
+	color: #333333;
+}
+
+.dfgetcoin{
+	padding-top: 20px;
+	font-family: "Tahoma-Regular";
+	text-align: center;
+	padding-bottom: 30px;
+	a{
 		background-color: #009cff;
-		background-image: linear-gradient(to top, #b3b3b3 0%, #ededed 100%);
-		border: 1px solid #8e8e8e;
-		border-radius: 3px;
-		box-shadow: inset 0 0 3px rgba(233, 233, 233, 0.32);
-		padding: 15px 30px 15px 30px;
-		img{
-			display: inline-block;
-			vertical-align: bottom;
-			margin-right: 10px;	
-		}		
-	}
-	.dfbutton2{
-		background-image: linear-gradient(to top, #3371c9 0%, #48a0ec 100%);
-		border: 1px solid #3372ca;
-		box-shadow: inset 0 0 3px rgba(71, 159, 235, 0.32);	
-	}
-	.dfbutton3{
 		background-image: linear-gradient(to top, #ff8d00 0%, #fc0 100%);
-		border: 1px solid #f28900;
-		box-shadow: inset 0 0 3px rgba(249, 247, 197, 0.57);
+		border: 1px solid #e37e00;
+		border-radius: 4px;
+		box-shadow: inset 0 0 3px rgba(71, 159, 235, 0.32);
+		display: inline-block;
+		padding: 20px 52px;
+		font-size: 22px;
+		color: #ffffff;
 	}
-	.dfbutton4{
-		background-image: linear-gradient(to top, #be0200 0%, #ff3b30 100%);
-		border: 1px solid #a80a00;
-		box-shadow: inset 0 0 3px rgba(255, 114, 114, 0.57);
-	}
+}
+.dfbonus{
+	font-size: 19px;
+	color: #333333;
+	display: block;
+}
+.df3coins{
+	font-size: 33px;
+	color: #333333;
+	display: block;
+	padding: 14px 0 20px 0;
+}
 @media only screen and (min-width : 320px) {
 }
 
@@ -158,6 +338,14 @@
 }
 
 @media only screen and (min-width : 992px) {
+	.dflogout{		
+		margin-left: 140px;
+		margin-top: 0;
+	}
+	.dfinp{		
+		margin-right: 17px;
+		margin-bottom: 0px;
+	}
 }
 
 @media only screen and (min-width : 1248px) {

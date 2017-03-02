@@ -59,3 +59,32 @@
 			</div>
 		</div>
 	</section>
+
+	<input type="text" value="" class="summ" pattern="\d [0-9]" id="i">
+	<span class="showsumm"></span>
+
+	 <script type="text/javascript">
+	 
+	 	$('.summ').keyup(function(e){
+	 		var s = $('.showsumm');
+	  		var summ = $(this).val();
+	  		var summNumber = parseInt(summ);
+
+			var dollar_c = 50; // По соотношению
+			var rubble_c = 1; // По соотношению			
+			
+			var out = summNumber * (rubble_c / dollar_c);
+
+			if(summNumber < 5){					 	
+			 	s.text("< 5");	
+			}
+			else{
+				s.text(out);	
+			}
+			if(/[^[0-9]/.test(summNumber)){
+				$('.summ').val(" ");
+				s.text("");
+			}		 
+	 	});  		
+
+     </script>
