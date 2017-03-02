@@ -10,9 +10,10 @@
 				<div class="box-wrap">
 					<div class="dd-box-header">
 						<span>1 = 100 satoshi</span>
+						<span class="dftopcap">Online - <em>7 698</em> users</span>
 					</div>
-					<div class="dd-box-header">
-						<a class="button-1" href="#">18.256M</a>
+					<div class="dd-box-header dfmymr">
+						<a class="button-1 dfcabbutton" href="#"><img src="img/money2.png" alt="">18.256M<span>+</span></a>
 					</div>
 					<div class="dd-box-header">
 						<a class="button-1 button-1__padding" href="#">Cabinet</a>
