@@ -7,9 +7,13 @@
 				<div class="col-md-12">					
 						<div class="dflogin">
 							<span>Login - </span>1EJ7FEgPngFnTv41x7zApEcMXgDk6UVhdq
-							<a href="#" class="dflogout">Logout</a>
+							<a href="#" class="dflogout">Logout</a>							
 						</div>
+						
+						
 						<div class="dfbalance">
+						<a href="#" class="dflogout dflogout2">Change password</a>
+						<div class="clearfix"></div>
 							<div class="dfboxcab">
 								<span class="dfba">My balance:</span>
 								<span class="dfba2">18.256M</span>
