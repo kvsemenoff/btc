@@ -193,6 +193,7 @@
 	border-radius: 5px;
 	padding: 0px 2px;
 	width: 90px;
+	height: 44px;
 	span{
 		display: block;
 		font-family: "Tahoma-Bold";
@@ -254,8 +255,13 @@
 		border-radius: 0px 5px 5px 0px;
 		color:#fff;
 		cursor: pointer;
+		transition:0.7s;
+	}
+	span:last-child:hover{
+		background:#F48C11;
 	}
 }
+
 .m0auto{
 	margin: 20px auto;
 }
