@@ -215,6 +215,11 @@
 	padding: 5px 10px;
 	display: inline-block;
 	margin-top: 10px;
+	transition:0.5s;
+}
+.dflogout:hover{
+	color: #494948;
+	border: 1px solid #333;
 }
 
 .dfbalance{
@@ -265,8 +270,8 @@
 	font-family: "Tahoma-Regular";
 }
 .dflinks1:hover{
-	background-image: -webkit-linear-gradient(bottom, #17a632 0%, #4cd964 100%);
-	background-image: linear-gradient(to top, #17a632 0%, #4cd964 100%);
+	background-image: -webkit-linear-gradient(bottom, #179c30 0%, #4cd964 100%);
+	background-image: linear-gradient(to top, #179c30 0%, #4cd964 100%);
 }
 .dflinks2{
 	background-image: -webkit-linear-gradient(bottom, #3371c9 0%, #48a0ec 100%);
