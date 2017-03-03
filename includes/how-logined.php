@@ -13,7 +13,7 @@
 						<li><span>To be sure you’ve run your contest within Facebook’s guidelines (they require you notify your winner before announcing anything on Facebook, as well).</span></li>
 					</ul>
 				</span>
-					<h2>Rules</h2>
+					<h2 id="rules">Rules</h2>
 					<span>
 						Especially if you ran your contest on Facebook, entrants will be checking your Facebook Page more than their email to see if they won. And with Facebook’s update to their promotion guidelines, it’s now totally legal to announce contest winners with a Facebook Post (once you’ve emailed them first).<br>
 						Tips for a great Facebook Post announcement:<br>

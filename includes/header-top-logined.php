@@ -1,4 +1,4 @@
-<section class="section section_padding section_header">
+<section id="home" class="section section_padding section_header">
 	<div class=" container header_container">
 		<div class="row">
 			<div class="col-md-4 col-sm-4">
