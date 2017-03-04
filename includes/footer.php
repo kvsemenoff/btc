@@ -21,12 +21,12 @@
 </section>
 
 <script>
-	    $("#js-nav a").click(function(e){
-        e.preventDefault();
-        var currentBlock = $(this).attr("href");
-        currentBlockoffset = $(currentBlock).offset().top;
-        $("html, body").animate({
-            scrollTop: currentBlockoffset
-        }, 500);
-    });
+	$("#js-nav a").click(function(e){
+		e.preventDefault();
+		var currentBlock = $(this).attr("href");
+		currentBlockoffset = $(currentBlock).offset().top;
+		$("html, body").animate({
+			scrollTop: currentBlockoffset
+		}, 500);
+	});
 </script>

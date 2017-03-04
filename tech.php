@@ -16,7 +16,7 @@
 <a href="#log-in_payments" name="modal">payments</a><br><br>
 <a href="#log-in_payments__calc" name="modal">payments done</a><br><br>
 <a href="#log-in_add_coins" name="modal">add coins</a><br><br>
-
+<a href="#log-in_pass" name="modal">changePassword</a><br><br>
 
 
 
@@ -130,6 +130,27 @@
 			</div>
 		</div>
 		<!-- End add coins -->
+
+		<!-- Change pass -->
+		<div id="log-in_pass" class="window">
+			<div class="pop-won pop-pass">
+				<h3>Change Password</h3>
+				<div class="dd-btc-wallet">
+					<div class="dd-brc-number dd-pass-inputs">
+						<span>Current password</span>
+						<input type="password" value="12345678">	
+						<span>New password</span>
+						<input type="password" value="12345678">	
+						<span>Confirm new password</span>
+						<input type="password" value="12345678">	
+					</div>
+					<div class="dd-pass-but">
+						<a class="button-1 button-1_won" href="#">Change</a>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- End changepass -->
 
 		<?php require_once('includes/footer.php'); ?>
 
