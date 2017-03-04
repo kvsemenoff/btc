@@ -12,7 +12,7 @@
 						
 						
 						<div class="dfbalance">
-						<a href="#" class="dflogout dflogout2">Change password</a>
+						<a href="#log-in_pass" name="modal" class="dflogout dflogout2">Change password</a>
 						<div class="clearfix"></div>
 							<div class="dfboxcab">
 								<span class="dfba">My balance:</span>
