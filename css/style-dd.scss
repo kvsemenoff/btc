@@ -393,8 +393,11 @@
 	.box-wrap{
 		float: right;
 	}
+	.dd-pt1, x:-moz-any-link {
+		margin-top: 2px;
+	}
 	.dd-pt1{
-		padding-top: 20px;
+		padding-top: 18px;
 		a{
 			padding: 11px 16px;
 		}
