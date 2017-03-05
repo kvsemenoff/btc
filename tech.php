@@ -1,4 +1,37 @@
-﻿<?php require_once('includes/header.php'); ?>
+﻿<!doctype html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Tech</title>
+
+	<link rel="stylesheet" href="libs/bootstrap/bootstrap-grid-3.3.1.min.css" />
+	<link href="//netdna.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.css" rel="stylesheet">
+	<link rel="stylesheet" href="libs/fancybox/jquery.fancybox.css" />
+	<link rel="stylesheet" href="libs/owl.carousel/assets/owl.carousel.css" />
+
+	<link rel="shortcut icon" href="favicon.ico" />
+	<link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+	<script src="libs/jquery/jquery-1.11.1.min.js"></script>
+	<script src="libs/owl.carousel/owl.carousel.js"></script>
+	<script src="libs/fancybox/jquery.fancybox.pack.js"></script>
+	<script type="text/javascript" src="js/jquery.mousewheel.js"></script>
+	<script type="text/javascript" src="js/jquery.jscrollpane.min.js"></script>
+
+
+
+	<script src="js/responsiveTabs.js"></script>
+	<script src="js/jquery.maskedinput.min.js"></script>
+	<script src="js/common.js"></script>
+
+	<script src="js/responsiveTabs.js"></script>
+	<script src="js/jquery.maskedinput.min.js"></script>
+	<script src="js/common.js"></script>
+
+	
 
 <br><br>		
 <a href="#" class="button-1">Login</a>	
@@ -152,7 +185,58 @@
 		</div>
 		<!-- End changepass -->
 
-		<?php require_once('includes/footer.php'); ?>
+		<section class="dd-footer">
+	<div class="container header_container">
+		<div class="row">
+			<div class="col-md-4">
+				<div class="dd-footer_menu">
+					<ul id="js-nav">
+						<li><a href="#home">Home</a></li>
+						<li><a href="#rules">Rules</a></li>
+						<li><a href="#">FAQ</a></li>
+						<li><a href="#">Contact</a></li>
+					</ul>
+				</div>
+			</div>
+			<div class="col-md-8">
+				<div class="dd-copy">
+					<span>© BTC Battle</span>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+		<!-- Change pass -->
+		<div id="mask"></div>
+		<div id="log-in_pass" class="window">
+			<div class="pop-won pop-pass">
+				<h3>Change Password</h3>
+				<div class="dd-btc-wallet">
+					<div class="dd-brc-number dd-pass-inputs">
+						<span>Current password</span>
+						<input type="password" value="12345678">	
+						<span>New password</span>
+						<input type="password" value="12345678">	
+						<span>Confirm new password</span>
+						<input type="password" value="12345678">	
+					</div>
+					<div class="dd-pass-but">
+						<a class="button-1 button-1_won" href="#">Change</a>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- End changepass -->
+<script>
+	$("#js-nav a").click(function(e){
+		e.preventDefault();
+		var currentBlock = $(this).attr("href");
+		currentBlockoffset = $(currentBlock).offset().top;
+		$("html, body").animate({
+			scrollTop: currentBlockoffset
+		}, 500);
+	});
+</script>
 
 
 	</body>
